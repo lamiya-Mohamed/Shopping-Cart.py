@@ -10,7 +10,7 @@ if "cart" not in st.session_state:
     st.session_state.cart = []
 
 
-st.title("🛒 Shopping Cart - Streamlit Version")
+st.title("🛒 Shopping Cart")
 
 st.sidebar.header("القائمة الرئيسية")
 menu = st.sidebar.radio(
